@@ -18,9 +18,13 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView, View
 from task2.views import index, IndexView
+from task3.views import roots, second_page, third_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", IndexView.as_view()),
-    path("index/", index)
+    path("index/", index),
+    path('root/', roots),
+    path('1/', second_page),
+    path('2/', third_page)
 ]
