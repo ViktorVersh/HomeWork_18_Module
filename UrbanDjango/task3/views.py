@@ -8,7 +8,7 @@ from django.views import View
 
 
 def roots(request):
-    title = "Магазин мягких игрушек"
+    title = "Главная страница"
     text = "Главная страница"
     context = {
         "title": title,

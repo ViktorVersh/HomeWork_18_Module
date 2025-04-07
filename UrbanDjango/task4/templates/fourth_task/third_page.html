@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'fourth_task/menu.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+{% block menu %}
+<body>
+    <h1>{{ title }}</h1>
+    {{ block.super }}
+    <h3>{{ text }}</h3>
+    <br><button><a href="/root">Вернуться обратно</a></button>
+</body>
+{% endblock %}
+</html>

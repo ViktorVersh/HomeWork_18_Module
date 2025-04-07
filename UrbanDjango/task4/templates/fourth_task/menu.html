@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин мягких игрушек</title>
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+{% block menu %}
+
+        <a href="/root">Главная</a>
+        <p></p>
+        <a href="/1">Магазин</a>
+        <p></p>
+        <a href="/2">Корзина</a>
+        <p></p>
+
+{% endblock %}
+</html>

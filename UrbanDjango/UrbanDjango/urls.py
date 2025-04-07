@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView, View
 from task2.views import index, IndexView
-from task3.views import roots, second_page, third_page
+# from task3.views import roots, second_page, third_page
+from task4.views import roots, second_page, third_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),

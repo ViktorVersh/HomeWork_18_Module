@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends 'fourth_task/menu.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+{% block menu %}
+    {{ block.super }}
+
+    <h1>{{ text }}</h1>
+    <ul>
+        <li><h4>Медведь с баяном----<button>Купить</button></h4></li>
+        <li><h4>Лиса и колобок-------<button>Купить</button></h4></li>
+        <li><h4>Волк---------------------<button>Купить</button></h4></li>
+        <li><h4>Царевна лягушка---<button>Купить</button></h4></li>
+    </ul>
+ <button><a href="/root">Главная страница</a></button>
+
+{% endblock %}
+</html>
